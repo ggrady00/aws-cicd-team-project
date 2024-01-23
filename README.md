@@ -109,7 +109,7 @@ Each module's directory contains Terraform files (main.tf, variables.tf, outputs
 ## Usage 
 
 ### Continuous Integration
-The [frontend](https://github.com/ggrady00/ce-team-project-frontend) and [backend](https://github.com/ggrady00/ce-team-project-backend) repo are all setup for usage with CircleCI and will build and push an image to AWS-ECR.
+The [frontend](https://github.com/ggrady00/cicd-project-frontend) and [backend](https://github.com/ggrady00/cicd-project-backend) repo are all setup for usage with CircleCI and will build and push an image to AWS-ECR.
 In the build-image-and-push job the repo and public registry alias need to be changed in order to push to your own ECR repo.
 #### **Changes needed when building images:**
 #### **Frontend CI configuration:**
